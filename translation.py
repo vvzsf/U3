@@ -2,27 +2,27 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_MESSAGE = '''**Hi, {}**
 **I Am Kajilinks.xyz, Bulk Link Converter. I Can Convert Links Directly From Your Kajilinks.xyz Account.**
-
+**
 1. Go To 👉 https://kajilinks.xyz/member/tools/api
 
 2. Then Copy API Key
 
-3. Then long press /api command then paste your API Key (see example to understand more...)
+3. Then long press /api command then paste your API Key (see example to understand more...)**
 
 **/api Your API Key 
 (See Example.👇)
 Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 
-**➕ Hit 👉 /features To know more features of this bot.**
+**➕ Hit 👉 /Header To add your custom header on this bot.To remove `/header remove`**
 
 **💁‍♀️ Hit 👉 /help To get help.**
 
-**➕ Hit 👉 /footer Adding your custom footer to bot.**
+**➕ Hit 👉 /footer To add your custom footer on this bot.To remove `/footer remove`**
 
 **Contact** 👉 @Kajilinks_support (For support)**
 '''
 
-HELP_MESSAGE = '''**Hi, {}**
+HELP_MESSAGE = """**Hi, {}**
 A bot to short link support bulk link conversion. I can convert links directly from your kajilinks account.
     
 1. Go To 👉 https://kajilinks.xyz/member/tools/api
@@ -38,7 +38,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 **➕ Hit** 👉 /footer Adding your custom footer to bot.
 
 **Contact** 👉 @Kajilinks_support (For support)
-'''
+"""
 
 ABOUT_TEXT = '''**Hey! My name is {firstname}.**
 
