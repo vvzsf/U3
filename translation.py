@@ -38,7 +38,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 **Contact** 👉 @Kajilinks_support (For support)
 '''
 
-ABOUT_MESSAGE = '''**Hey! My name is {firstname}.**
+ABOUT_TEXT = '''**Hey! My name is {firstname}.**
 
 **⚡Features⚡**
 
@@ -70,7 +70,7 @@ List of Admins who has access to this Bot
 {admin_list}
 """
 
-ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
+ABOUT_TEXT_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
         InlineKeyboardButton('Custom Alias', callback_data=f'alias_conf')
@@ -80,7 +80,7 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
 ])
 
-HELP_REPLY_MARKUP = InlineKeyboardMarkup([
+HELP_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
         InlineKeyboardButton('More Features', callback_data=f'about_command')
