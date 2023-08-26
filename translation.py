@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 START_MESSAGE = '''**Hi, {}**
 **I Am Kajilinks.xyz, Bulk Link Converter. I Can Convert Links Directly From Your Kajilinks.xyz Account.**
 
-1. Go To 👉 https://kajilinks.xyz
+1. Go To 👉 https://kajilinks.xyz/member/tools/api
 
 2. Then Copy API Key
 
@@ -23,7 +23,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 HELP_MESSAGE = '''**Hi, {}**
 A bot to short link support bulk link conversion. I can convert links directly from your kajilinks account.
     
-1. Go To 👉 https://kajilinks.xyz
+1. Go To 👉 https://kajilinks.xyz/member/tools/api
 2. Then Copy API Key
 3. Then long press /api command then paste your API Key (see example to understand more...)
 
