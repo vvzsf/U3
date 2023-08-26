@@ -13,11 +13,13 @@ START_MESSAGE = '''**Hi, {}**
 (See Example.👇)
 Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 
-**➕ Hit** 👉 /features To know more features of this bot.
-**💁‍♀️ Hit** 👉 /help To get help.
-**➕ Hit** 👉 /footer Adding your custom footer to bot.
+**➕ Hit 👉 /features To know more features of this bot.**
 
-**Contact** 👉 @Kajilinks_support (For support)
+**💁‍♀️ Hit 👉 /help To get help.**
+
+**➕ Hit 👉 /footer Adding your custom footer to bot.**
+
+**Contact** 👉 @Kajilinks_support (For support)**
 '''
 
 HELP_MESSAGE = '''**Hi, {}**
