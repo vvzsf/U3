@@ -1,7 +1,23 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_MESSAGE = '''**Hi, {}**
-I am kajilinks bot, bulk link converter with your posts/messages. I can convert & earn money directly from your links.
+I Am Kajilinks.xyz, Bulk Link Converter. I Can Convert Links Directly From Your Kajilinks.xyz Account.
+
+1. Go To 👉 https://kajilinks.xyz
+
+2. Then Copy API Key
+
+3. Then long press /api command then paste your API Key (see example to understand more...)
+
+**/api Your API Key 
+(See Example.👇)
+Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
+
+**➕ Hit** 👉 /features To know more features of this bot.
+**💁‍♀️ Hit** 👉 /help To get help.
+**➕ Hit** 👉 /footer Adding your custom footer to bot.
+
+**Contact** 👉 @Kajilinks_support (For support)
 '''
 
 HELP_MESSAGE = '''**Hi, {}**
@@ -22,7 +38,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 **Contact** 👉 @Kajilinks_support (For support)
 '''
 
-ABOUT_TEXT = '''**Hey! My name is {firstname}.**
+ABOUT_MESSAGE = '''**Hey! My name is {firstname}.**
 
 **⚡Features⚡**
 
