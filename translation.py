@@ -15,7 +15,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 
 **➕ Hit 👉 /Header To add your custom header on this bot.To remove `/header remove`**
 
-**💁‍♀️ Hit 👉 /help To get help.**
+**💁‍♀️ Hit 👉 /Api To add your api token.**
 
 **➕ Hit 👉 /footer To add your custom footer on this bot.To remove `/footer remove`**
 
