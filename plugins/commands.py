@@ -16,7 +16,7 @@ from bot import *
 
 logger = logging.getLogger(__name__)
 
-user_commands = ["set_api", "header", "footer", "username", "banner_image", "me"]
+user_commands = ["Api", "header", "footer", "username", "banner_image", "me"]
 avl_web = ["mdiskpro.in", "mdiskpro.xyz",]
 
 avl_web1 = "".join(f"- {i}\n" for i in avl_web)
