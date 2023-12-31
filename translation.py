@@ -1,9 +1,9 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_MESSAGE = '''**Hi, {}**
-**I Am Kajilinks.xyz, Bulk Link Converter. I Can Convert Links Directly From Your Kajilinks.xyz Account.**
+**I Am Urlshortx.com, Bulk Link Converter. I Can Convert Links Directly From Your urlshortx.com Account.**
 **
-1. Go To 👉 https://kajilinks.xyz/member/tools/api
+1. Go To 👉 https://urlshortx.com/member/tools/api
 
 2. Then Copy API Key
 
@@ -19,13 +19,13 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 
 **➕ Hit 👉 /footer To add your custom footer on this bot.To remove `/footer remove`**
 
-**Contact** 👉 @Kajilinks_support (For support)**
+**Contact Bot Developer** 👉 @Arisu_0007 (For Shornter Bots)**
 '''
 
 HELP_MESSAGE = """**Hi, {}**
-A bot to short link support bulk link conversion. I can convert links directly from your kajilinks account.
+A bot to short link support bulk link conversion. I can convert links directly from your urlshortx account.
     
-1. Go To 👉 https://kajilinks.xyz/member/tools/api
+1. Go To 👉 https://urlshortx.com/member/tools/api
 2. Then Copy API Key
 3. Then long press /api command then paste your API Key (see example to understand more...)
 
@@ -37,14 +37,14 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 **💁‍♀️ Hit** 👉 /help To get help.
 **➕ Hit** 👉 /footer Adding your custom footer to bot.
 
-**Contact** 👉 @Kajilinks_support (For support)
+**Contact Bot Developer** 👉 @Arisu_0007 (For Shornter Bots)
 """
 
 ABOUT_TEXT = '''**Hey! My name is {firstname}.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **kajilinks** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **urlshortx** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
@@ -54,7 +54,7 @@ ABOUT_TEXT = '''**Hey! My name is {firstname}.**
 
 • **No** need to share **password or email** to convert links.**
 
- **Contact** 👉 @Kajilinks_support (For support)
+ **Contact Bot Developer** 👉 @Arisu_0007 (For Shornter Bots)
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -63,7 +63,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/Kajilinks_support | Kajilinks_support"""
+Ex: https://t.me/PanindiaFilmZ | PanindiaFilmZ"""
 
 
 ADMINS_MESSAGE = """
@@ -94,7 +94,7 @@ HELP_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://kajilinks.xyz')
+        InlineKeyboardButton('Get Api', url=f'https://urlshortx.com/member/tools/api')
     ]
 ])
 
@@ -108,7 +108,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://kajilinks.xyz/member/tools/api)
+- Website: [{base_site}](https://urlshortx.com/member/tools/api)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -129,7 +129,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928hug883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://kajilinks.xyz/member/tools/api)
+Get API From [{base_site}](https://urlshortx.com/member/tools/api)
 
 Website: `{base_site}`
 
@@ -149,18 +149,18 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hi! {}, I am kajilinks bot, bulk link converter bot From Linked Your kajilinks Account,**
+USERNAME_TEXT = """**Hi! {}, I am Urlshortx bot, bulk link converter bot From Linked Your Urlshortx Account,**
 
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @Kajilinks_official
+/channel @PanindiaFilmZ
 Or
-/channel https://t.me/Kajilinks_official
+/channel PanindiaFilmZ
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @Kajilinks_support For More Help -**"""
+**- Message @Arisu_0007 For More Help -**"""
 
 BANNER_IMAGE = """
 **Usage:** `/banner_image image_url` or reply to any Image with this command
@@ -169,7 +169,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b387a.jpg`"""
+Eg: `/banner_image https://telegra.ph/file/5e96340a9147026556b387a.jpg`"""
 
 
 BANNED_USER_TXT = """
