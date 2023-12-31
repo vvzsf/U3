@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 channel = UPDATE_CHANNEL
 
-ft = f"You have not joined in my channel. Please join @Kajilinks_Official to use this bot."
+ft = f"You have not joined in my channel. Please join @urlshortx1 to use this bot."
 
 
 # Private Chat
