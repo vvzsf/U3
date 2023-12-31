@@ -1,23 +1,24 @@
-import uvloop
-uvloop.install()
+import asyncio
 import datetime
 import logging
 import logging.config
 import sys
-
-from pyrogram import Client
-
-
+from pyrogram import *
+from pyrogram.errors.exceptions.not_acceptable_406 import *
 from config import *
-from database import db
-from database.users import filter_users
-from helpers import temp
-from utils import broadcast_admins, create_server, set_commands
-
-# Get logging configurations
-logging.config.fileConfig("logging.conf")
+from database import *
+from database.users import *
+from helpers import *
+from pyshorteners import *
+logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
-
+import os
+import pyrogram
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class Bot(Client):
     def __init__(self):
