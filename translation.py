@@ -19,7 +19,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 
 **➕ Hit 👉 /footer To add your custom footer on this bot.To remove `/footer remove`**
 
-**Contact Bot Developer** 👉 @Arisu_0007 (For Shornter Bots)**
+**Contact Bot Developer** 👉 **@Arisu_0007 (For Shornter Bots)**
 '''
 
 HELP_MESSAGE = """**Hi, {}**
@@ -37,7 +37,7 @@ Example:** `/api de303d5270f481aec92j8h9883da7b7f9a8812ac `
 **💁‍♀️ Hit** 👉 /help To get help.
 **➕ Hit** 👉 /footer Adding your custom footer to bot.
 
-**Contact Bot Developer** 👉 @Arisu_0007 (For Shornter Bots)
+**Contact Bot Developer** 👉 **@Arisu_0007 (For Shornter Bots)**
 """
 
 ABOUT_TEXT = '''**Hey! My name is {firstname}.**
@@ -54,7 +54,7 @@ ABOUT_TEXT = '''**Hey! My name is {firstname}.**
 
 • **No** need to share **password or email** to convert links.**
 
- **Contact Bot Developer** 👉 @Arisu_0007 (For Shornter Bots)
+ **Contact Bot Developer** 👉 **@Arisu_0007 (For Shornter Bots)**
 
 **Click On Custom Alias To Create Custom Link**
 '''
