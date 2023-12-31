@@ -20,6 +20,14 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# (c) Shrimadhav U K
+
+
+if __name__ == "__main__" :
+
 class Bot(Client):
     def __init__(self):
         super().__init__(
